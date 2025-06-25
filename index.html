@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centre Copie Tamounte</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: rgb(228, 14, 14);
+      color: #fff;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin-top: 5px;
+      font-style: italic;
+    }
+
+    .produits {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .produits h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #004080;
+    }
+
+    .galerie {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .carte {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .carte:hover {
+      transform: translateY(-5px);
+    }
+
+    .carte img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .carte h3 {
+      margin: 15px 0 5px;
+      color: #004080;
+    }
+
+    .carte p {
+      margin: 5px 15px;
+      font-size: 0.95rem;
+    }
+
+    .prix {
+      font-weight: bold;
+      color: #008000;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 15px 0 20px;
+      padding: 10px 20px;
+      background-color: #004080;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #0066cc;
+    }
+
+    .contact {
+      background-color: #e9f0fa;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .contact h3 {
+      color: #004080;
+      margin-bottom: 15px;
+    }
+
+    .contact p {
+      margin: 8px 0;
+      font-size: 1.1rem;
+    }
+
+    .contact a {
+      color: #004080;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact i {
+      margin-right: 8px;
+      color: blue;
+    }
+
+    footer {
+      background-color: red;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      .galerie {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-copy"></i> Centre Copie Tamounte</h1>
+    <p>Votre partenaire pour equiper votre bureau avec des imprimantes multifonctions Ricoh </p>
+  </header>
+ 
+
+  <section class="produits">
+    <h2>A propos de nous</h2>
+    <p>
+        <strong>Centre Copie Tamounte </strong> est une entreprise spécialisée dans la <strong>vente</strong> et la <strong>location</strong> d'imprimantes miltifoctions de la marque <strong>Ricoh</strong>. 
+        Nous proposons des solutions professionnelles adaptées aux besoin des entreprises et des administrations, avec un service client réactif et personnalisé 
+    </p>
+    <h2>Nos équipements<strong>( Jusqu'a 1 an de garantie )</strong></h2>
+    <div class="galerie">
+
+
+  <div class="carte">
+    <img src="MP-3054.jpg" alt="Ricoh MP 3054/3055">
+    <h3>Ricoh MP 3054/3055</h3>
+    <p>Copieur multifonction A6/A3/ Résolution 600 dpi | 30 ppm |  Imprimante Scanner Copieur | Réseau intégré |mémoire 1 Go + disque dur 120 Go| ARDF/By-pass et recto/verso automatique | table incluse</p>
+    <p class="prix">11 000  DH HT</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="carte">
+    <img src="Ricoh_Aficio_MP_6054_5054_4054_2_705429ca-b73f-4805-a11d-e7f8f3dbef30_1024x1024.webp" alt="Ricoh MP 4054/4055">
+    <h3>Ricoh MP 4054/4055</h3>
+    <p>Vitesse : 40 ppm | Impression, copie, scan | Chargeur de documents | mémoire 1 Go + disque dur 120 Go| Format de papier A6-A3 / Résolition 600 dpi |  ARDF/By-pass et recto/verso automatique| table incluse</p>
+    <p class="prix"> 12 000  DH HT</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="carte">
+    <img src="MP_5054_1.webp" alt="Ricoh MP 5054/5055">
+    <h3>Ricoh MP 5054/5055</h3>
+    <p>50 pages/minute | Impression sécurisée | Recto verso automatique | mémoire 1 Go + disque dur 120 Go| Format de papier A6-A3 / Résolition 600 dpi | ARDF/By-pass et recto/verso automatique| table incluse</p>
+    <p class="prix"> 13 000 DH HT</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="carte">
+    <img src="MP-171LN.jpg" alt="Ricoh MP 171/201">
+    <h3>Ricoh MP 171/201</h3>
+    <p>Compact | A4/A5 | 17-20 ppm |Format de papier A4-A5| ARDF/By-pass et recto/verso automatique| table ( en option) | Économique pour petits bureaux</p>
+    <p class="prix"> 4 000 DH HT</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="carte">
+    <img src="ricoh-aficio-mp-1600-laser-multifunction-printer-1000x1000.jpg" alt="Ricoh MP 1600/1900">
+    <h3>Ricoh MP 1600/1900</h3>
+    <p>Impression :19 ppm | Fonction scan | Format de papier A6-A3 / Résolition 600 dpi | table ( en option) | ADF ( en option )</p>
+    <p class="prix"> 4 000 DH HT</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="carte">
+    <img src="2852.jfif" alt="Ricoh MP 2852">
+    <h3>Ricoh MP 2852</h3>
+    <p>28 ppm | mémoire 1 Go + disque dur 120 Go| Format de papier A6-A3 / Résolition 600 dpi | Écran LCD | ARDF/By-pass et recto/verso automatique| table incluse </p>
+    <p class="prix"> 10 000 DH HT</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="carte">
+    <img src="MPC306.webp" alt="Ricoh MPC 305/306/307">
+    <h3>Ricoh MPC 305/306/307</h3>
+    <p>Couleur | A4 | Compact | Écran tactile | ARDF/By-pass et recto/verso automatique| table ( en option )</p>
+    <p class="prix"> 6 000 DH HT</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="carte">
+    <img src="3003.jfif" alt="Ricoh MPC 3003/3503">
+    <h3>Ricoh MPC 3003/3503</h3>
+    <p>Multifonction couleur | 30-35 ppm | A3-A4 | ARDF/By-pass et recto/verso automatique|Connectique réseau et USB| Bac papier de 2*500 pages | Table incluse</p>
+    <p class="prix"> 15 000 DH HT</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+  <div class="carte">
+    <img src="4503.jfif" alt="Ricoh MPC 4503/4504">
+    <h3>Ricoh MPC 4503/4504</h3>
+    <p>45 ppm| Couleur | 45 ppm | A4-A3|ARDF/By-pass et recto/verso automatique | connectique réseau et USB| Bac papier de 2*500 pages| table incluse </p>
+    <p class="prix"> 15 000 DH HT</p>
+    <a href="#" class="btn">Commander</a>
+  </div>
+
+</div>
+  </section>
+
+  <section class="contact">
+    <h3>Contactez-nous</h3>
+    <p><i class="fab fa-whatsapp"></i> WhatsApp : <a href="https://wa.me/212671114755" target="_blank">+212 6 71 11 47 55</a></p>
+    <p><i class="fab fa-facebook"></i> Facebook : <a href="https://www.facebook.com/centrecopietamounte" target="_blank">/centrecopietamounte</a></p>
+    <p><i class="fas fa-envelope"></i> Email : <a href="halimacctamounte@gmail.com">contact@copietamounte.ma</a></p>
+    <p><i class="fas fa-tél/fax"></i> Tél/fax : <a href="https://wa.me/212528220800">+212 5 28 22 08 00</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Centre Copie Tamounte - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
